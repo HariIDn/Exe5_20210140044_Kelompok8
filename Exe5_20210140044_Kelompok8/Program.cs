@@ -24,6 +24,10 @@ namespace Exe5_20210140044_Kelompok8
         public Node adit;
         public Node rozi;
 
+        public Queue()
+        {
+            this.adit = this.rozi = null;
+        }
         
         static void Main(string[] args)
         {
