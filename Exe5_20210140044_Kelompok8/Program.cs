@@ -55,7 +55,17 @@ namespace Exe5_20210140044_Kelompok8
             if (this.adit == null)
                 this.rozi = null;
         }
-        
+        public void display()
+        {
+            if(this.adit == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("Queue Front: " + this.adit.ell);
+            }
+        }
         static void Main(string[] args)
         {
             
