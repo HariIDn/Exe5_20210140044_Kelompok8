@@ -40,6 +40,21 @@ namespace Exe5_20210140044_Kelompok8
             this.rozi.next = temp;
             this.rozi = temp;
         }
+        public void Delete()
+        {
+            if (this.adit == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+
+            if (this.adit == null)
+                return;
+
+            this.adit = this.adit.next;
+
+            if (this.adit == null)
+                this.rozi = null;
+        }
         
         static void Main(string[] args)
         {
