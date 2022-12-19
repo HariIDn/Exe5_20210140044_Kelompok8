@@ -19,7 +19,9 @@ namespace Exe5_20210140044_Kelompok8
             this.next = null;
         }
     }
-    
+    class Queue 
+    {
+        
         static void Main(string[] args)
         {
             
