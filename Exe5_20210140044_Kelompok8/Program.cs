@@ -13,7 +13,11 @@ namespace Exe5_20210140044_Kelompok8
         public Node next;
         public string ell;
 
-        
+        public Node(string ell)
+        {
+            this.ell = ell;
+            this.next = null;
+        }
     }
     
         static void Main(string[] args)
