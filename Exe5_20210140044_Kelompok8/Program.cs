@@ -28,6 +28,18 @@ namespace Exe5_20210140044_Kelompok8
         {
             this.adit = this.rozi = null;
         }
+        public void Insert(string ell)
+        {
+            Node temp = new Node(ell);
+
+            if(this.rozi == null)
+            {
+                this.adit = this.rozi = temp;
+                return;
+            }
+            this.rozi.next = temp;
+            this.rozi = temp;
+        }
         
         static void Main(string[] args)
         {
