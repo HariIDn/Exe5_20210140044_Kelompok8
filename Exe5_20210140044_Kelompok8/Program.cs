@@ -21,6 +21,9 @@ namespace Exe5_20210140044_Kelompok8
     }
     class Queue 
     {
+        public Node adit;
+        public Node rozi;
+
         
         static void Main(string[] args)
         {
